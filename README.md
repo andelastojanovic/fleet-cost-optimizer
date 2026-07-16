@@ -131,3 +131,14 @@ linkedin.com/in/andela-stojanovic
 
 GitHub:
 github.com/andelastojanovic
+
+----------
+
+## 📁 Repository Structure
+logistics-optimization-toolkit/
+
+├── fleet_optimizer.py
+├── border_crossing_optimizer.py
+├── requirements.txt
+├── LICENSE
+└── README.md
