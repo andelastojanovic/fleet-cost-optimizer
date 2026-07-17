@@ -1,52 +1,71 @@
-# Logistics Optimization Toolkit 🚚📊
+# 🚚 Logistics Optimization Toolkit
 
-Python-based decision support tools for Logistics, Supply Chain, Operations Management and Business Analysis.
+A collection of Python-based decision support tools designed to demonstrate how Business Analysis, Operations Management and Data Analytics can improve logistics and supply chain performance.
 
-This repository contains practical Python projects that simulate real-world business scenarios in logistics, supply chain, operations management and business analysis.
-
-Each project is designed to demonstrate analytical thinking, process optimization and data-driven decision making through software development.
+This repository contains practical projects inspired by real-world operational scenarios, focusing on process optimization, resource allocation and data-driven decision making.
 
 ---
 
-## 📂 Projects
+# 🎯 Repository Goals
 
-### 🚛 Fleet Cost & Maintenance Optimizer
+The objective of this repository is to showcase practical applications of Python for solving business and operational challenges through simulation, optimization and analytical thinking.
 
-A Python application that prioritizes preventive maintenance using a risk-based approach.
+The projects are designed around realistic scenarios commonly found in:
 
-### Business Value
+- Supply Chain Management
+- Logistics Operations
+- Business Analysis
+- Project Management
+- Operations Management
 
-Unplanned vehicle breakdowns may cost companies several times more than preventive maintenance.
+---
 
-This project helps organizations:
+# 📂 Projects
 
-- Predict maintenance risk
-- Prioritize limited maintenance budgets
-- Reduce operational costs
-- Improve fleet availability
-- Estimate Return on Investment (ROI)
+## 🚛 Fleet Cost & Maintenance Optimizer
+
+### Business Problem
+
+Unexpected vehicle failures generate significant operational costs and reduce fleet availability.
+
+### Solution
+
+This project prioritizes preventive maintenance by calculating a dynamic risk score for every vehicle and allocating a limited maintenance budget where it creates the highest business value.
+
+### Key Features
+
+- Risk-based vehicle prioritization
+- Budget optimization
+- ROI estimation
+- Preventive maintenance planning
 
 ### Technologies
 
 - Python
 - Pandas
 - Object-Oriented Programming (OOP)
-- Business Analytics
 
 ---
 
-### 🌍 Border Crossing Optimizer
+## 🌍 Border Crossing Operations Simulator
 
-A simulation tool designed around the **Trieste–Belgrade logistics corridor**.
+### Business Problem
 
-The project estimates customs congestion by analysing:
+Border congestion creates delays, increases transportation costs and reduces supply chain efficiency.
 
-- Border capacity
-- Truck arrivals
-- Waiting time
-- Queue formation
+### Solution
 
-It demonstrates how simulation models can support logistics planning and infrastructure decision making.
+This simulator evaluates customs border performance by estimating congestion levels and operational KPIs across the Trieste–Belgrade logistics corridor.
+
+### KPIs Generated
+
+- Border Utilization
+- Processing Capacity
+- Queue Length
+- Waiting Time
+- Delayed Trucks
+- Processed Trucks
+- Operational Recommendations
 
 ### Technologies
 
@@ -59,32 +78,34 @@ It demonstrates how simulation models can support logistics planning and infrast
 
 # 🛠 Skills Demonstrated
 
-Business Analysis
-Project Management
-Operations Management
-Supply Chain Analytics
-Decision Support Systems
-Python
-Pandas
-SQL
-Data Analysis
-Object-Oriented Programming
+- Business Analysis
+- Operations Management
+- Logistics Optimization
+- Supply Chain Analytics
+- Project Management
+- Decision Support Systems
+- Data Analysis
+- Python
+- Pandas
+- Object-Oriented Programming
 
 ---
 
 # 📦 Installation
 
+Clone the repository:
+
 ```bash
 git clone https://github.com/andelastojanovic/logistics-optimization-toolkit.git
 ```
 
-Install dependencies
+Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Run any project
+Run one of the projects:
 
 ```bash
 python fleet_optimizer.py
@@ -98,43 +119,23 @@ python border_crossing_optimizer.py
 
 ---
 
-## 🚀 Roadmap
+# 🚀 Current Repository Roadmap
 
-- [ ] Power BI Executive Dashboard
-- [ ] Supply Chain KPI Simulator
-- [ ] Inventory Optimization Model
-- [ ] Transportation Cost Optimizer
-- [ ] PMO Analytics Dashboard
-- [ ] SQL Database Integration
-- [ ] Streamlit Web Application
+Future projects planned for this toolkit include:
+
+- Power BI Executive Dashboard
+- Supply Chain KPI Simulator
+- Inventory Optimization Model
+- Transportation Cost Optimizer
+- PMO Analytics Dashboard
+- SQL Database Integration
+- Streamlit Interactive Dashboard
 
 ---
 
-## 👩‍💻 Author
+# 📁 Repository Structure
 
-**Andela Stojanovic**
-
-Management Engineering Student
-
-Business Analysis • Project Management • Business Intelligence
-
-Google Project Management Professional Certificate
-
-Microsoft Power BI Data Analyst
-
-Cisco Python • Networking • Cybersecurity
-
-📍 Italy & Serbia
-
-LinkedIn:
-linkedin.com/in/andela-stojanovic
-
-GitHub:
-github.com/andelastojanovic
-
-----------
-
-## 📁 Repository Structure
+```
 logistics-optimization-toolkit/
 
 ├── fleet_optimizer.py
@@ -142,3 +143,34 @@ logistics-optimization-toolkit/
 ├── requirements.txt
 ├── LICENSE
 └── README.md
+```
+
+---
+
+# 👩‍💻 About the Author
+
+**Andela Stojanovic**
+
+Management Engineering Student passionate about Business Analysis, Project Management, Logistics and Data Analytics.
+
+### Certifications
+
+- Google Project Management Professional Certificate
+- Microsoft Power BI Data Analyst
+- Cisco Python Essentials
+- Cisco Networking Essentials
+- Cisco Cybersecurity Essentials
+
+### Technical Skills
+
+Python • Power BI • Business Analysis • Project Management • Logistics • Process Improvement
+
+📍 Italy 🇮🇹 | Serbia 🇷🇸
+
+**LinkedIn**
+
+https://linkedin.com/in/andela-stojanovic
+
+**GitHub**
+
+https://github.com/andelastojanovic
